@@ -1,0 +1,24 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/CommentPage",
+    "pages/FollowPage",
+    "pages/HomePage",
+    "pages/FolloweePage",
+    "pages/LikePage",
+    "pages/MessagePage",
+    "pages/MinePage",
+    "pages/PublishPage",
+    "pages/SearchPage",
+    "pages/StatusPage",
+    "pages/EditProfile",
+    "pages/Editing",
+    "pages/PrivateChat",
+    "pages/DetailPage",
+    "pages/LoginPage",
+    "pages/RegisterPage",
+    "pages/MinePage_MyCollections",
+    "pages/MinePage_MyPosts",
+    "pages/MinePage_MyLikes"
+  ]
+}

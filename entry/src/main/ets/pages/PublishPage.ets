@@ -39,9 +39,7 @@ export default struct PublishPage {
       .width('100%');
 
       // 多行输入区域
-      TextArea({placeholder:('写点什么吧，上限200字'),
-
-      })
+      TextArea({placeholder:('写点什么吧，上限200字')})
         .width('90%')
         .height(500)
         .fontSize(16)

@@ -113,10 +113,6 @@ export struct MessagePage {
                 .borderRadius(32);
 
               Column() {
-                Text(item.conversationId)
-                  .fontSize(24)
-                  .fontWeight(FontWeight.Bold);
-
                 Text(item.name)
                   .fontSize(24)
                   .fontWeight(FontWeight.Bold);

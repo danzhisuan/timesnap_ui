@@ -24,7 +24,6 @@ interface PrivateChatParams {
 @Entry
 @Component
 export default struct PrivateChat {
-  @State inputValue: string = '';
   @State showMediaPanel: boolean = false;
   @State messages: ChatItem[]=[];
   @State targetUser: User = {
@@ -35,6 +34,9 @@ export default struct PrivateChat {
   private currentUserId: string = UserStore.userId; // 当前用户 ID
 
   @State conversationId: string = '1'
+
+  @State inputValue: string = '';
+  private inputController: TextInputController = new TextInputController();
 
   onPageShow(): void {
     const params = router.getParams() as PrivateChatParams;
@@ -94,6 +96,7 @@ export default struct PrivateChat {
     this.messages.push(newMessage)
     // 清空输入框
     this.inputValue = ''
+
     //将消息发送到后端
     const httpRequest = http.createHttp()
     httpRequest.request(
@@ -226,7 +229,10 @@ export default struct PrivateChat {
 
       // 输入区
       Row() {
-        TextInput()
+        TextInput({
+          text: this.inputValue,
+          controller:this.inputController
+        })
           .width('80%')
           .layoutWeight(1)
           .height(40)
@@ -237,6 +243,8 @@ export default struct PrivateChat {
           .onChange(value => {
             this.inputValue = value;
           });
+
+
 
         if (this.inputValue.length === 0) {
           Button() {

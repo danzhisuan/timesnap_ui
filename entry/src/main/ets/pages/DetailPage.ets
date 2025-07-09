@@ -54,6 +54,13 @@ interface PostDetail {
   comments: Comment[]
 }
 
+//页面传入参数 zzf写的
+interface Params {
+  id?: string;
+}
+
+
+
 
 
 @Entry
@@ -99,6 +106,16 @@ export default struct DetailPage {
   };
   //连接数据库
   aboutToAppear(): void {
+    //zzf写的
+    let uiContext: UIContext = this.getUIContext();
+    let params = uiContext.getRouter().getParams() as Params;
+    if (params.id) {
+      console.info('接收到的id参数:', params.id);
+    } else {
+      console.warn('没有传入id参数');
+    }
+    //zzf写的————结束
+
     const httpRequest = http.createHttp()
     httpRequest.request(
       'http://47.117.0.254:4000/posts/1/detail?userId=1',

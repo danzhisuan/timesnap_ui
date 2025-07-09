@@ -1,0 +1,41 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
+      }
+    ],
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": false
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "1043bfc77febe75fafec0c4309faccf1": {
+        "CreateModuleInfo": 1185600,
+        "ConfigureCmake": 199500,
+        "PreCheckSyscap": 265800,
+        "GeneratePkgContextInfo": 379900,
+        "ProcessIntegratedHsp": 1441400,
+        "BuildNativeWithCmake": 244000,
+        "SyscapTransform": 1835300,
+        "BuildNativeWithNinja": 845500,
+        "BuildJS": 1667500,
+        "CompileArkTS": 1127599100,
+        "PackageHap": 403312000,
+        "SignHap": 1112100,
+        "CollectDebugSymbol": 2853600,
+        "assembleHap": 147800
+      }
+    },
+    "TOTAL_TIME": 1781132300,
+    "BUILD_ID": "202507091333189860"
+  }
+}

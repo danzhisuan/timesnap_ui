@@ -1,0 +1,1999 @@
+[2025-07-08T18:08:34.972] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-07-08T18:08:37.407] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-08T18:08:37.421] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-08T18:08:49.895] [DEBUG] debug-file - hvigorfile, require result:  { AppTasksForArkUIX: [Getter] }
+[2025-07-08T18:08:50.069] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-08T18:08:50.074] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  }
+} in this build.
+[2025-07-08T18:08:50.086] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-07-08T18:08:50.103] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-08T18:08:50.092] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-07-08T18:08:50.136] [DEBUG] debug-file - Sdk init in 55 ms 
+[2025-07-08T18:08:50.158] [DEBUG] debug-file - Project task initialization takes 21 ms 
+[2025-07-08T18:08:50.168] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-08T18:08:50.186] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-08T18:08:50.194] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-07-08T18:08:50.199] [ERROR] debug-file - Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-08T18:08:50.225] [WARN] debug-file - BUILD FAILED in 12 s 830 ms 
+[2025-07-08T18:08:34.974] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.5',
+  dependencies: { '@ohos/hvigor-ohos-arkui-x-plugin': '4.2.25' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-07-08T18:08:37.408] [DEBUG] debug-file - Since current hvigor version 5.17.2 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-07-08T18:08:50.247] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-07-08T18:08:49.896] [DEBUG] debug-file - hvigorfile, binding system plugins { AppTasksForArkUIX: [Getter] }
+[2025-07-08T18:08:50.070] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-08T18:08:50.080] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-08T18:08:50.158] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-08T18:08:50.173] [DEBUG] debug-file - hvigorfile, require result:  { HapTasks: [Getter] }
+[2025-07-08T18:08:50.186] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-08T18:08:50.194] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-08T18:08:50.199] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-07-08T18:08:50.245] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-07-08T18:08:34.976] [DEBUG] debug-file - env: daemon=false
+[2025-07-08T18:08:37.409] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-07-08T18:08:50.250] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-07-08T18:08:50.070] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-08T18:08:50.173] [DEBUG] debug-file - hvigorfile, binding system plugins { HapTasks: [Getter] }
+[2025-07-08T18:08:50.186] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-08T18:08:50.214] [DEBUG] debug-file - ERROR: stacktrace = Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-08T18:08:50.245] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-07-08T18:08:34.976] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2025-07-08T18:08:50.251] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-07-08T18:08:50.070] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-08T18:08:50.187] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+}
+[2025-07-08T18:08:50.214] [ERROR] debug-file - Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-08T18:08:50.251] [DEBUG] debug-file - Clear worker 0.
+[2025-07-08T18:08:50.187] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+}
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-07-08T18:08:50.187] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-08T18:08:50.187] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Clear worker 1.
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-07-08T18:08:50.252] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-08T18:08:50.258] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-07-08T18:08:50.258] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-07-08T18:08:50.258] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-07-08T18:09:18.237] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-07-08T18:09:18.371] [DEBUG] debug-file - env: daemon=true
+[2025-07-08T18:09:18.238] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.5',
+  dependencies: { '@ohos/hvigor-ohos-arkui-x-plugin': '4.2.25' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-07-08T18:09:19.617] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-07-08T18:09:19.643] [DEBUG] debug-file - java daemon started at port 45050 pid 22132
+[2025-07-08T18:09:19.663] [DEBUG] debug-file - session manager: set active socket. socketId=OzlGm9omA8AToFU_AAAB
+[2025-07-08T18:09:20.106] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-08T18:09:20.118] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-08T18:09:20.120] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-07-08T18:09:20.128] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-08T18:09:21.336] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-08T18:09:21.336] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-08T18:09:21.476] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-08T18:09:21.476] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-08T18:09:21.477] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-08T18:09:21.477] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-08T18:09:21.479] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  }
+} in this build.
+[2025-07-08T18:09:21.485] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-08T18:09:21.488] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-07-08T18:09:21.490] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-07-08T18:09:21.495] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-08T18:09:21.510] [DEBUG] debug-file - Sdk init in 25 ms 
+[2025-07-08T18:09:21.525] [DEBUG] debug-file - Project task initialization takes 13 ms 
+[2025-07-08T18:09:21.525] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-08T18:09:21.529] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-08T18:09:21.533] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-08T18:09:21.533] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-08T18:09:21.543] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-08T18:09:21.543] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-08T18:09:21.543] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-08T18:09:21.544] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+}
+[2025-07-08T18:09:21.544] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+}
+[2025-07-08T18:09:21.544] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-08T18:09:21.544] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-08T18:09:21.549] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-07-08T18:09:21.549] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-08T18:09:21.577] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 27 ms 
+[2025-07-08T18:09:21.579] [ERROR] debug-file - Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-08T18:09:21.579] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-07-08T18:09:21.580] [DEBUG] debug-file - ERROR: stacktrace = Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-08T18:09:21.580] [ERROR] debug-file - Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-08T18:09:21.590] [WARN] debug-file - BUILD FAILED in 1 s 481 ms 
+[2025-07-08T18:09:21.607] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-08T18:09:21.607] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-08T18:09:21.619] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-07-08T18:09:21.619] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-07-08T18:09:21.620] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-07-08T18:09:21.622] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Cleanup worker 0.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Cleanup worker 1.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-07-08T18:09:21.624] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-08T18:09:21.625] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-08T18:09:21.628] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-08T18:09:21.628] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-08T18:09:21.629] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-07-08T18:09:21.629] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-07-09T13:17:30.310] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-07-09T13:17:30.338] [DEBUG] debug-file - java daemon started at port 45050 pid 14096
+[2025-07-09T13:17:28.808] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-07-09T13:17:28.936] [DEBUG] debug-file - env: daemon=true
+[2025-07-09T13:17:28.810] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.5',
+  dependencies: { '@ohos/hvigor-ohos-arkui-x-plugin': '4.2.25' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-07-09T13:17:32.078] [DEBUG] debug-file - session manager: set active socket. socketId=OLo7LLdsbB5w2mfhAAAB
+[2025-07-09T13:17:32.087] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:17:32.099] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-09T13:17:32.105] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2025-07-09T13:17:32.113] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:17:44.557] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:17:44.557] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:17:44.713] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-09T13:17:44.713] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-09T13:17:44.713] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-09T13:17:44.714] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-09T13:17:44.716] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  }
+} in this build.
+[2025-07-09T13:17:44.722] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-09T13:17:44.725] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-07-09T13:17:44.731] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-07-09T13:17:44.736] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-09T13:17:44.763] [DEBUG] debug-file - Sdk init in 40 ms 
+[2025-07-09T13:17:44.776] [DEBUG] debug-file - Project task initialization takes 13 ms 
+[2025-07-09T13:17:44.776] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:17:44.780] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:17:44.785] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:17:44.785] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:17:44.794] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-09T13:17:44.794] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-09T13:17:44.794] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-09T13:17:44.794] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+}
+[2025-07-09T13:17:44.794] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+}
+[2025-07-09T13:17:44.795] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-09T13:17:44.795] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-09T13:17:44.799] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-07-09T13:17:44.799] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:17:44.840] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 40 ms 
+[2025-07-09T13:17:44.842] [ERROR] debug-file - Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-09T13:17:44.843] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-07-09T13:17:44.853] [DEBUG] debug-file - ERROR: stacktrace = Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-09T13:17:44.853] [ERROR] debug-file - Error: Unable to find 'arkui-x.dir' in 'local.properties' or 'ARKUIX_SDK_HOME' in the system environment path.
+	 Detail: Please go to Settings > ArkUI-X and download the sdk. Open SDK Manager.
+	 at D:\SummerProject\timesnap\frontend\timesnap_ui\local.properties
+    at OhosLogger.errorMessageExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:3224)
+    at OhosLogger._printErrorAndExit (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\log\ohos-logger.js:1:1978)
+    at Property.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\lib\property-get.js:1:2026)
+    at SdkInfoExtension.getArkUIXSdkDir (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:629)
+    at SdkInfoExtension.getArkUIXInfo (D:\Harmony\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\sdk\sdk-info-extension.js:1:571)
+    at CrossPlatformService.initSdkInfo (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\service\cross-platform-service.js:1:1385)
+    at HvigorLifecycleHook.<anonymous> (C:\Users\32052\.hvigor\project_caches\25a415ef4a69ff549bae689bdf83b3b9\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-arkui-x-plugin@4.2.25\node_modules\@ohos\hvigor-ohos-arkui-x-plugin\src\plugin\factory\plugin-factory.js:1:1439)
+    at HvigorLifecycleHook.runFn (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1696)
+    at 4 (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1149)
+    at HvigorLifecycleHook.runHook (D:\Harmony\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1861)
+[2025-07-09T13:17:44.862] [WARN] debug-file - BUILD FAILED in 12 s 772 ms 
+[2025-07-09T13:17:44.876] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-07-09T13:17:44.876] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-07-09T13:17:44.877] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-07-09T13:17:44.879] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Cleanup worker 0.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Cleanup worker 1.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-07-09T13:17:44.881] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-09T13:17:44.882] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-09T13:17:44.897] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:17:44.897] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:17:44.898] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-07-09T13:17:44.898] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-07-09T13:20:44.403] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-07-09T13:20:44.445] [DEBUG] debug-file - env: daemon=true
+[2025-07-09T13:20:44.894] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-07-09T13:20:44.900] [DEBUG] debug-file - java daemon started at port 45050 pid 15284
+[2025-07-09T13:20:44.405] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.5',
+  dependencies: { '@ohos/hvigor-ohos-arkui-x-plugin': '4.2.25' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-07-09T13:20:44.928] [DEBUG] debug-file - session manager: set active socket. socketId=2vEXEt4-cgaGrszBAAAB
+[2025-07-09T13:20:45.529] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:20:45.541] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-09T13:20:45.543] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-07-09T13:20:45.551] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:20:46.766] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:20:46.766] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:20:46.909] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-09T13:20:46.910] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-09T13:20:46.910] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-09T13:20:46.910] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-09T13:20:46.913] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  }
+} in this build.
+[2025-07-09T13:20:46.918] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-09T13:20:46.921] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-07-09T13:20:46.924] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-07-09T13:20:46.928] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-09T13:20:46.947] [DEBUG] debug-file - Sdk init in 28 ms 
+[2025-07-09T13:20:46.963] [DEBUG] debug-file - Project task initialization takes 15 ms 
+[2025-07-09T13:20:46.964] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:20:46.968] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:20:46.973] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:20:46.973] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:20:46.983] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-09T13:20:46.983] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-09T13:20:46.984] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-09T13:20:46.984] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+}
+[2025-07-09T13:20:46.984] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+}
+[2025-07-09T13:20:46.984] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-09T13:20:46.984] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-09T13:20:46.989] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-07-09T13:20:46.989] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:20:47.019] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 29 ms 
+[2025-07-09T13:20:47.025] [DEBUG] debug-file - Sdk init in 3 ms 
+[2025-07-09T13:20:47.026] [DEBUG] debug-file - project has submodules:entry
+[2025-07-09T13:20:47.030] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+} in this build.
+[2025-07-09T13:20:47.031] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-09T13:20:47.040] [DEBUG] debug-file - load to the disk finished
+[2025-07-09T13:20:47.041] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-09T13:20:47.069] [DEBUG] debug-file - Module timesnap_ui Collected Dependency: 
+[2025-07-09T13:20:47.069] [DEBUG] debug-file - Module timesnap_ui's total dependency: 0
+[2025-07-09T13:20:47.070] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-09T13:20:47.071] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-07-09T13:20:47.072] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-07-09T13:20:47.075] [DEBUG] debug-file - Configuration phase cost:1 s 529 ms 
+[2025-07-09T13:20:47.077] [DEBUG] debug-file - Configuration task cost before running: 1 s 546 ms 
+[2025-07-09T13:20:47.078] [DEBUG] debug-file - Executing task :entry:init
+[2025-07-09T13:20:47.078] [DEBUG] debug-file - entry : init cost memory 0.0139923095703125
+[2025-07-09T13:20:47.078] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 546 ms 
+[2025-07-09T13:20:47.078] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-07-09T13:20:47.079] [DEBUG] debug-file - Executing task ::init
+[2025-07-09T13:20:47.079] [DEBUG] debug-file - timesnap_ui : init cost memory 0.0113525390625
+[2025-07-09T13:20:47.079] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 547 ms 
+[2025-07-09T13:20:47.079] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-07-09T13:20:47.092] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-09T13:20:47.095] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+} in this build.
+[2025-07-09T13:20:47.104] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:20:47.104] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:20:47.119] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-07-09T13:20:47.119] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-07-09T13:20:47.120] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-07-09T13:20:47.123] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Cleanup worker 0.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Cleanup worker 1.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-07-09T13:20:47.125] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-09T13:20:47.126] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-09T13:20:47.130] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:20:47.130] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:20:47.131] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-07-09T13:20:47.131] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-07-09T13:21:35.797] [DEBUG] debug-file - session manager: set active socket. socketId=cZsdhn8D_IwjilbSAAAD
+[2025-07-09T13:21:35.822] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:21:35.847] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-09T13:21:35.847] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-07-09T13:21:35.856] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:21:35.863] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:21:35.863] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:21:35.869] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-09T13:21:35.869] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-09T13:21:35.869] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-09T13:21:35.869] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-09T13:21:35.871] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  }
+} in this build.
+[2025-07-09T13:21:35.875] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-09T13:21:35.881] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-09T13:21:35.904] [DEBUG] debug-file - Sdk init in 29 ms 
+[2025-07-09T13:21:35.918] [DEBUG] debug-file - Project task initialization takes 13 ms 
+[2025-07-09T13:21:35.918] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:21:35.923] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:21:35.926] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:21:35.927] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:21:35.931] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-09T13:21:35.931] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-09T13:21:35.932] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-09T13:21:35.932] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+}
+[2025-07-09T13:21:35.932] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+}
+[2025-07-09T13:21:35.932] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-09T13:21:35.932] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-09T13:21:35.935] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-07-09T13:21:35.935] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:21:35.958] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 23 ms 
+[2025-07-09T13:21:35.963] [DEBUG] debug-file - Sdk init in 3 ms 
+[2025-07-09T13:21:35.963] [DEBUG] debug-file - project has submodules:entry
+[2025-07-09T13:21:35.966] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+} in this build.
+[2025-07-09T13:21:35.967] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-09T13:21:35.970] [DEBUG] debug-file - load to the disk finished
+[2025-07-09T13:21:35.971] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-09T13:21:35.973] [DEBUG] debug-file - Module timesnap_ui Collected Dependency: 
+[2025-07-09T13:21:35.973] [DEBUG] debug-file - Module timesnap_ui's total dependency: 0
+[2025-07-09T13:21:35.973] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-09T13:21:35.974] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-07-09T13:21:35.974] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-07-09T13:21:35.976] [DEBUG] debug-file - Configuration phase cost:125 ms 
+[2025-07-09T13:21:35.977] [DEBUG] debug-file - Configuration task cost before running: 153 ms 
+[2025-07-09T13:21:35.979] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:35.979] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:35.982] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-07-09T13:21:35.986] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:35.986] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.148] [DEBUG] debug-file - current product is not Atomic service.
+[2025-07-09T13:21:36.149] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\Harmony\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2025-07-09T13:21:36.149] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'D:\\Harmony\\DevEco Studio\\tools\\node' } ]
+[2025-07-09T13:21:36.149] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.10935211181640625
+[2025-07-09T13:21:36.150] [DEBUG] debug-file - runTaskFromQueue task cost before running: 325 ms 
+[2025-07-09T13:21:36.151] [INFO] debug-file - Finished :entry:default@PreBuild... after 168 ms 
+[2025-07-09T13:21:36.153] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.153] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.153] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-07-09T13:21:36.154] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:36.155] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.06866455078125
+[2025-07-09T13:21:36.155] [DEBUG] debug-file - runTaskFromQueue task cost before running: 330 ms 
+[2025-07-09T13:21:36.155] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2025-07-09T13:21:36.156] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.157] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.157] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-07-09T13:21:36.158] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:36.158] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.158] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.161] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.13446044921875
+[2025-07-09T13:21:36.161] [DEBUG] debug-file - runTaskFromQueue task cost before running: 337 ms 
+[2025-07-09T13:21:36.161] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 4 ms 
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.03789520263671875
+[2025-07-09T13:21:36.163] [DEBUG] debug-file - runTaskFromQueue task cost before running: 339 ms 
+[2025-07-09T13:21:36.164] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-07-09T13:21:36.165] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.165] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.166] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-07-09T13:21:36.166] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.166] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.167] [DEBUG] debug-file - Change app api release type with 'Release'
+[2025-07-09T13:21:36.167] [DEBUG] debug-file - Change app compile API version with '5.0.5.165'
+[2025-07-09T13:21:36.167] [DEBUG] debug-file - Change app target API version with '50005017'
+[2025-07-09T13:21:36.167] [DEBUG] debug-file - Change app minimum API version with '50005017'
+[2025-07-09T13:21:36.167] [DEBUG] debug-file - Use cli appEnvironment
+[2025-07-09T13:21:36.171] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.2180938720703125
+[2025-07-09T13:21:36.171] [DEBUG] debug-file - runTaskFromQueue task cost before running: 346 ms 
+[2025-07-09T13:21:36.171] [INFO] debug-file - Finished :entry:default@MergeProfile... after 5 ms 
+[2025-07-09T13:21:36.173] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.173] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.173] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-07-09T13:21:36.174] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:36.174] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.175] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.176] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.1243133544921875
+[2025-07-09T13:21:36.176] [DEBUG] debug-file - runTaskFromQueue task cost before running: 352 ms 
+[2025-07-09T13:21:36.177] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 3 ms 
+[2025-07-09T13:21:36.178] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.178] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.179] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-07-09T13:21:36.179] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.179] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.179] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.039031982421875
+[2025-07-09T13:21:36.179] [DEBUG] debug-file - runTaskFromQueue task cost before running: 355 ms 
+[2025-07-09T13:21:36.180] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-07-09T13:21:36.181] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.181] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.189] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-07-09T13:21:36.189] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:36.190] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.0516510009765625
+[2025-07-09T13:21:36.190] [DEBUG] debug-file - runTaskFromQueue task cost before running: 366 ms 
+[2025-07-09T13:21:36.190] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2025-07-09T13:21:36.192] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.192] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.193] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-07-09T13:21:36.194] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.194] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.194] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.074462890625
+[2025-07-09T13:21:36.195] [DEBUG] debug-file - runTaskFromQueue task cost before running: 370 ms 
+[2025-07-09T13:21:36.195] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-07-09T13:21:36.197] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.197] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.197] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-07-09T13:21:36.198] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.198] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.198] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.15462493896484375
+[2025-07-09T13:21:36.198] [DEBUG] debug-file - runTaskFromQueue task cost before running: 373 ms 
+[2025-07-09T13:21:36.198] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-07-09T13:21:36.200] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.200] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.200] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-07-09T13:21:36.203] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.203] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.204] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***i', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2025-07-09T13:21:36.206] [DEBUG] debug-file - entry : default@MakePackInfo cost memory -6.8020782470703125
+[2025-07-09T13:21:36.206] [DEBUG] debug-file - runTaskFromQueue task cost before running: 381 ms 
+[2025-07-09T13:21:36.206] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 6 ms 
+[2025-07-09T13:21:36.208] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.208] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.209] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-07-09T13:21:36.209] [DEBUG] debug-file - File: 'D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-07-09T13:21:36.210] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 2 ms 
+[2025-07-09T13:21:36.211] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.211] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.211] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.0881805419921875
+[2025-07-09T13:21:36.211] [DEBUG] debug-file - runTaskFromQueue task cost before running: 387 ms 
+[2025-07-09T13:21:36.211] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 3 ms 
+[2025-07-09T13:21:36.213] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.213] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.215] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-07-09T13:21:36.215] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.216] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.217] [DEBUG] debug-file - [
+  'D:\\Harmony\\DevEco Studio\\tools\\node\\node.exe',
+  'D:\\Harmony\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '17'
+]
+[2025-07-09T13:21:36.512] [DEBUG] debug-file - 12.0.6.0
+[2025-07-09T13:21:36.516] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.0596084594726562
+[2025-07-09T13:21:36.516] [DEBUG] debug-file - runTaskFromQueue task cost before running: 691 ms 
+[2025-07-09T13:21:36.516] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 302 ms 
+[2025-07-09T13:21:36.518] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.518] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.519] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-07-09T13:21:36.520] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.520] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.523] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.1468963623046875
+[2025-07-09T13:21:36.523] [DEBUG] debug-file - runTaskFromQueue task cost before running: 699 ms 
+[2025-07-09T13:21:36.524] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 4 ms 
+[2025-07-09T13:21:36.526] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.526] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.526] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-07-09T13:21:36.526] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.526] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.528] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.06551361083984375
+[2025-07-09T13:21:36.528] [DEBUG] debug-file - runTaskFromQueue task cost before running: 704 ms 
+[2025-07-09T13:21:36.529] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-07-09T13:21:36.530] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.530] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.531] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-07-09T13:21:36.540] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-07-09T13:21:36.542] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.542] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.543] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.211669921875
+[2025-07-09T13:21:36.544] [DEBUG] debug-file - runTaskFromQueue task cost before running: 720 ms 
+[2025-07-09T13:21:36.546] [INFO] debug-file - Finished :entry:default@ProcessResource... after 11 ms 
+[2025-07-09T13:21:36.547] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.547] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.550] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-07-09T13:21:36.561] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.7367401123046875
+[2025-07-09T13:21:36.561] [DEBUG] debug-file - runTaskFromQueue task cost before running: 737 ms 
+[2025-07-09T13:21:36.564] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 11 ms 
+[2025-07-09T13:21:36.566] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.566] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.566] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-07-09T13:21:36.568] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.568] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.572] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
+[2025-07-09T13:21:36.573] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
+[2025-07-09T13:21:36.573] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:21:36.574] [DEBUG] debug-file - Create  resident worker with id: 30.
+[2025-07-09T13:21:36.576] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[30].
+[2025-07-09T13:21:36.576] [DEBUG] debug-file - default@ProcessLibs work[0] is dispatched.
+[2025-07-09T13:21:36.576] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.8270263671875
+[2025-07-09T13:21:36.577] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:36.577] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:36.578] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-07-09T13:21:36.580] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-07-09T13:21:36.589] [DEBUG] debug-file - Use tool [D:\Harmony\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'D:\\Harmony\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2025-07-09T13:21:36.591] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 194048000,
+  heapTotal: 155058176,
+  heapUsed: 112538800,
+  external: 3300129,
+  arrayBuffers: 169853
+} os memoryUsage :17.329200744628906
+[2025-07-09T13:21:37.353] [DEBUG] debug-file - worker[30] has one work done.
+[2025-07-09T13:21:37.354] [DEBUG] debug-file - default@ProcessLibs work[0] done.
+[2025-07-09T13:21:37.354] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.355] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 12 ms 
+[2025-07-09T13:21:37.356] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:37.356] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:37.358] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-07-09T13:21:37.358] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:37.359] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:37.359] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:37.359] [DEBUG] debug-file - default@DoNativeStrip work[1] is submitted.
+[2025-07-09T13:21:37.360] [DEBUG] debug-file - default@DoNativeStrip work[1] is pushed to ready queue.
+[2025-07-09T13:21:37.360] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.360] [DEBUG] debug-file - default@DoNativeStrip work[1] has been dispatched to worker[30].
+[2025-07-09T13:21:37.360] [DEBUG] debug-file - default@DoNativeStrip work[1] is dispatched.
+[2025-07-09T13:21:37.360] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.19129180908203125
+[2025-07-09T13:21:37.371] [DEBUG] debug-file - worker[30] has one work done.
+[2025-07-09T13:21:37.372] [DEBUG] debug-file - default@DoNativeStrip work[1] done.
+[2025-07-09T13:21:37.372] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.372] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 9 ms 
+[2025-07-09T13:21:37.373] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:37.373] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:37.375] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-07-09T13:21:37.375] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:37.375] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:37.375] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:37.376] [DEBUG] debug-file - default@CacheNativeLibs work[2] is submitted.
+[2025-07-09T13:21:37.376] [DEBUG] debug-file - default@CacheNativeLibs work[2] is pushed to ready queue.
+[2025-07-09T13:21:37.376] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.376] [DEBUG] debug-file - default@CacheNativeLibs work[2] has been dispatched to worker[30].
+[2025-07-09T13:21:37.376] [DEBUG] debug-file - default@CacheNativeLibs work[2] is dispatched.
+[2025-07-09T13:21:37.376] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.17298126220703125
+[2025-07-09T13:21:37.414] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-07-09T13:21:37.416] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2025-07-09T13:21:37.416] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-07-09T13:21:37.419] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-07-09T13:21:37.420] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2025-07-09T13:21:37.420] [DEBUG] debug-file - Info: thread pool is started
+
+[2025-07-09T13:21:37.429] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-07-09T13:21:37.429] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+Info: thread pool is started
+
+[2025-07-09T13:21:37.431] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-07-09T13:21:37.435] [DEBUG] debug-file - 07-09 13:21:37.436 20268 22520 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2025-07-09T13:21:37.436] [DEBUG] debug-file - 07-09 13:21:37.436 20268 22520 E C01400/ImageTranscoderUtils: ImageFilter IN D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\resources\base\media\background.png
+
+[2025-07-09T13:21:37.472] [DEBUG] debug-file - 07-09 13:21:37.472 20268 22520 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+07-09 13:21:37.472 20268 22520 E C01400/ImageTranscoderUtils: ImageFilter IN D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\resources\base\media\foreground.png
+
+[2025-07-09T13:21:37.503] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2025-07-09T13:21:37.504] [DEBUG] debug-file - Warning: D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\resources\base\media\layered_image.json is not png format
+
+[2025-07-09T13:21:37.505] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2025-07-09T13:21:37.505] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-09T13:21:37.571] [DEBUG] debug-file - astcenc customized so is not be opened when dlclose!
+
+[2025-07-09T13:21:37.576] [DEBUG] debug-file - entry : default@CompileResource cost memory -2.2144622802734375
+[2025-07-09T13:21:37.576] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 752 ms 
+[2025-07-09T13:21:37.577] [INFO] debug-file - Finished :entry:default@CompileResource... after 997 ms 
+[2025-07-09T13:21:37.579] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:37.579] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:37.582] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-07-09T13:21:37.599] [DEBUG] debug-file - build config:
+[2025-07-09T13:21:37.599] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\Harmony\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui',
+  compileSdkVersion: 17,
+  compatibleSdkVersion: 17,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***i',
+  etsLoaderVersion: '5.0.5.165',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'e776dbcb2d1b1b7109cb6cee5c7c6413',
+  externalApiPaths: [ 'D:\\Harmony\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 17,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true, useNormalizedOHMUrl: false },
+  buildDir: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: [ [Object] ], definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  autoLazyImport: undefined,
+  allowEmptyBundleName: false,
+  singleFileEmit: false,
+  arkCompileCachePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  reExportCheckMode: 'noCheck',
+  aceModuleJsonPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '01aa1751813385087cfce14c011e0fb8',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:17:5.0.5.165:Release',
+  aceModuleRoot: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui': {
+      moduleName: 'timesnap_ui',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    }
+  },
+  pkgJsonFileHash: 'ad14e34daa63b8462784838da084e1fc',
+  allModulePaths: [ 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\mock\\mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  uiTransformOptimization: false,
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-07-09T13:21:37.600] [DEBUG] debug-file - Compile arkts with external api path: D:\Harmony\DevEco Studio\sdk\default\hms\ets
+[2025-07-09T13:21:37.601] [DEBUG] debug-file - default@CompileArkTS work[3] is submitted.
+[2025-07-09T13:21:37.601] [DEBUG] debug-file - default@CompileArkTS work[3] is pushed to ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[30] failed because of worker busy.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[28] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[27] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[26] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[25] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[24] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.602] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.603] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.603] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.603] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2025-07-09T13:21:37.603] [DEBUG] debug-file - default@CompileArkTS work[3] has been dispatched to worker[4].
+[2025-07-09T13:21:37.603] [DEBUG] debug-file - default@CompileArkTS work[3] is dispatched.
+[2025-07-09T13:21:37.604] [DEBUG] debug-file - CopyResources startTime: 98819036259600
+[2025-07-09T13:21:37.604] [DEBUG] debug-file - default@CompileArkTS work[4] is submitted.
+[2025-07-09T13:21:37.604] [DEBUG] debug-file - default@CompileArkTS work[4] is pushed to ready queue.
+[2025-07-09T13:21:37.604] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:21:37.604] [DEBUG] debug-file - A work dispatched to worker[30] failed because of worker busy.
+[2025-07-09T13:21:37.604] [DEBUG] debug-file - Create  resident worker with id: 29.
+[2025-07-09T13:21:37.605] [DEBUG] debug-file - default@CompileArkTS work[4] has been dispatched to worker[29].
+[2025-07-09T13:21:37.605] [DEBUG] debug-file - default@CompileArkTS work[4] is dispatched.
+[2025-07-09T13:21:37.605] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.7103271484375
+[2025-07-09T13:21:37.607] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:37.607] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:37.610] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-07-09T13:21:37.612] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1388397216796875
+[2025-07-09T13:21:37.612] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 787 ms 
+[2025-07-09T13:21:37.612] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2025-07-09T13:21:38.229] [DEBUG] debug-file - worker[30] has one work done.
+[2025-07-09T13:21:38.230] [DEBUG] debug-file - default@CacheNativeLibs work[2] done.
+[2025-07-09T13:21:38.230] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:21:38.230] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 8 ms 
+[2025-07-09T13:21:38.373] [DEBUG] debug-file - worker[29] has one work done.
+[2025-07-09T13:21:38.373] [DEBUG] debug-file - CopyResources is end, endTime: 98819805401300
+[2025-07-09T13:21:38.373] [DEBUG] debug-file - default@CompileArkTS work[4] done.
+[2025-07-09T13:21:38.373] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2025-07-09T13:21:52.742] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/CommentPage.ets:4:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/FollowPage.ets:3:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/HomePage.ets:13:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/FolloweePage.ets:13:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/LikePage.ets:4:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage.ets:20:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MessagePage.ets:14:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/PublishPage.ets:3:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/SearchPage.ets:1:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/StatusPage.ets:1:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/EditProfile.ets:3:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/Editing.ets:3:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/LoginPage.ets:3:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/RegisterPage.ets:3:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/PrivateChat.ets:24:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/DetailPage.ets:59:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage_MyCollections.ets:13:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage_MyCollections.ets:16:9
+ The @Entry component 'MinePage_MyCollections' cannot have the @Prop property 'userId'.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage_MyPosts.ets:14:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage_MyPosts.ets:17:9
+ The @Entry component 'MinePage_MyPosts' cannot have the @Prop property 'userId'.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage_MyLikes.ets:14:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/MinePage_MyLikes.ets:17:9
+ The @Entry component 'MinePage_MyLikes' cannot have the @Prop property 'userId'.[39m
+
+[2025-07-09T13:21:52.743] [DEBUG] debug-file - Ark compile task finished.finished time is 98834175651900
+[2025-07-09T13:21:52.743] [DEBUG] debug-file - worker[4] has one work done.
+[2025-07-09T13:21:52.749] [DEBUG] debug-file - default@CompileArkTS work[3] done.
+[2025-07-09T13:21:52.749] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-07-09T13:21:52.751] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 13 s 612 ms 
+[2025-07-09T13:21:52.753] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:52.753] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:52.754] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-07-09T13:21:52.754] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:21:52.754] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:52.754] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:52.756] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.08502960205078125
+[2025-07-09T13:21:52.756] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 932 ms 
+[2025-07-09T13:21:52.756] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 3 ms 
+[2025-07-09T13:21:52.759] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:52.759] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:52.765] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-07-09T13:21:52.767] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:52.767] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:52.769] [DEBUG] debug-file - Use tool [D:\Harmony\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\Harmony\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2025-07-09T13:21:52.770] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2025-07-09T13:21:52.771] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2025-07-09T13:21:52.771] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:21:52.771] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[30].
+[2025-07-09T13:21:52.771] [DEBUG] debug-file - default@PackageHap work[5] is dispatched.
+[2025-07-09T13:21:52.774] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.7191543579101562
+[2025-07-09T13:21:52.785] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 685424640,
+  heapTotal: 94023680,
+  heapUsed: 90051360,
+  external: 4023724,
+  arrayBuffers: 59184
+} os memoryUsage :17.80457305908203
+[2025-07-09T13:21:53.251] [DEBUG] debug-file - worker[30] has one work done.
+[2025-07-09T13:21:53.251] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2025-07-09T13:21:53.252] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:21:53.253] [INFO] debug-file - Finished :entry:default@PackageHap... after 479 ms 
+[2025-07-09T13:21:53.255] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:53.255] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:53.256] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-07-09T13:21:53.257] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5.
+[2025-07-09T13:21:53.257] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:53.257] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:53.258] [DEBUG] debug-file - entry : default@SignHap cost memory 0.08319091796875
+[2025-07-09T13:21:53.258] [DEBUG] debug-file - runTaskFromQueue task cost before running: 17 s 434 ms 
+[2025-07-09T13:21:53.258] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2025-07-09T13:21:53.260] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:53.260] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:53.261] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.24985504150390625
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - runTaskFromQueue task cost before running: 17 s 440 ms 
+[2025-07-09T13:21:53.264] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 4 ms 
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - entry : assembleHap cost memory 0.01033782958984375
+[2025-07-09T13:21:53.264] [DEBUG] debug-file - runTaskFromQueue task cost before running: 17 s 440 ms 
+[2025-07-09T13:21:53.265] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-07-09T13:21:53.276] [DEBUG] debug-file - BUILD SUCCESSFUL in 17 s 452 ms 
+[2025-07-09T13:21:53.277] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\app.json5 cache by regenerate.
+[2025-07-09T13:21:53.277] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\module.json5 cache by regenerate.
+[2025-07-09T13:21:53.278] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.278] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.278] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2025-07-09T13:21:53.278] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\hvigor\hvigor-config.json5 cache by regenerate.
+[2025-07-09T13:21:53.278] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\mock\mock-config.json5 cache by regenerate.
+[2025-07-09T13:21:53.278] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\oh-package.json5 cache by regenerate.
+[2025-07-09T13:21:53.279] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\SummerProject\timesnap\frontend\timesnap_ui\oh-package.json5 cache by regenerate.
+[2025-07-09T13:21:53.279] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:3 ms .
+[2025-07-09T13:21:53.279] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-09T13:21:53.280] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-09T13:21:53.280] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\module.json5 cache by regenerate.
+[2025-07-09T13:21:53.280] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2025-07-09T13:21:53.280] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2025-07-09T13:21:53.280] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\app.json5 cache by regenerate.
+[2025-07-09T13:21:53.280] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.281] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\module.json5 cache by regenerate.
+[2025-07-09T13:21:53.281] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2025-07-09T13:21:53.281] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2025-07-09T13:21:53.281] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\app.json5 cache by regenerate.
+[2025-07-09T13:21:53.281] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.282] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2025-07-09T13:21:53.282] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2025-07-09T13:21:53.282] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-09T13:21:53.282] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-09T13:21:53.283] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\SummerProject\timesnap\frontend\timesnap_ui\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-07-09T13:21:53.283] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-07-09T13:21:53.283] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\app.json5 cache by regenerate.
+[2025-07-09T13:21:53.283] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\module.json5 cache by regenerate.
+[2025-07-09T13:21:53.283] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.284] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\pack.info cache.
+[2025-07-09T13:21:53.284] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:2 ms .
+[2025-07-09T13:21:53.284] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Harmony\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-07-09T13:21:53.284] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Harmony\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-07-09T13:21:53.285] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-07-09T13:21:53.285] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2025-07-09T13:21:53.285] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-07-09T13:21:53.286] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2025-07-09T13:21:53.286] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-07-09T13:21:53.286] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\oh-package.json5 cache by regenerate.
+[2025-07-09T13:21:53.287] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\oh-package.json5 cache by regenerate.
+[2025-07-09T13:21:53.287] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\module.json5 cache by regenerate.
+[2025-07-09T13:21:53.287] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2025-07-09T13:21:53.287] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2025-07-09T13:21:53.287] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2025-07-09T13:21:53.288] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2025-07-09T13:21:53.288] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2025-07-09T13:21:53.288] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2025-07-09T13:21:53.290] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\mock\mock-config.json5 cache by regenerate.
+[2025-07-09T13:21:53.290] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2025-07-09T13:21:53.290] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default\loader.json cache.
+[2025-07-09T13:21:53.290] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:3 ms .
+[2025-07-09T13:21:53.290] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.291] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build-profile.json5 cache by regenerate.
+[2025-07-09T13:21:53.291] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\libs\default cache.
+[2025-07-09T13:21:53.291] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2025-07-09T13:21:53.292] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\resources cache by regenerate.
+[2025-07-09T13:21:53.295] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\SummerProject\timesnap\frontend\timesnap_ui\AppScope\resources cache by regenerate.
+[2025-07-09T13:21:53.296] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-07-09T13:21:53.297] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2025-07-09T13:21:53.297] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default cache.
+[2025-07-09T13:21:53.301] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2025-07-09T13:21:53.301] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\r\default cache.
+[2025-07-09T13:21:53.302] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:11 ms .
+[2025-07-09T13:21:53.302] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-07-09T13:21:53.302] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2025-07-09T13:21:53.302] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2025-07-09T13:21:53.303] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-07-09T13:21:53.303] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-07-09T13:21:53.303] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2025-07-09T13:21:53.303] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:1 ms .
+[2025-07-09T13:21:53.305] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-07-09T13:21:53.305] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-09T13:21:53.305] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-07-09T13:21:53.305] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-09T13:21:53.306] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\ets cache by regenerate.
+[2025-07-09T13:21:53.308] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-09T13:21:53.308] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\mock\mock-config.json5 cache by regenerate.
+[2025-07-09T13:21:53.308] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets cache.
+[2025-07-09T13:21:53.308] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:6 ms .
+[2025-07-09T13:21:53.309] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-07-09T13:21:53.310] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-09T13:21:53.310] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-07-09T13:21:53.310] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-09T13:21:53.310] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-07-09T13:21:53.310] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:2 ms .
+[2025-07-09T13:21:53.310] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-07-09T13:21:53.311] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\package\default\module.json cache.
+[2025-07-09T13:21:53.311] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-07-09T13:21:53.311] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-07-09T13:21:53.312] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-07-09T13:21:53.312] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2025-07-09T13:21:53.314] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2025-07-09T13:21:53.314] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2025-07-09T13:21:53.315] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2025-07-09T13:21:53.315] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-07-09T13:21:53.315] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-09T13:21:53.316] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2025-07-09T13:21:53.316] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2025-07-09T13:21:53.316] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2025-07-09T13:21:53.316] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:6 ms .
+[2025-07-09T13:21:53.317] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2025-07-09T13:21:53.317] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-07-09T13:21:53.317] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-07-09T13:21:53.319] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-07-09T13:21:53.319] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-07-09T13:21:53.319] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\symbol cache.
+[2025-07-09T13:21:53.319] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:3 ms .
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Cleanup worker 29.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Worker 29 has been cleaned up.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Current idle worker size: 2.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Current resident worker size: 3.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Cleanup worker 30.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Worker 30 has been cleaned up.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-09T13:21:53.342] [DEBUG] debug-file - Current resident worker size: 3.
+[2025-07-09T13:21:53.343] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-09T13:21:53.349] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:21:53.350] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:21:53.349] [DEBUG] debug-file - worker[29] exits with exit code 1.
+[2025-07-09T13:21:53.350] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:21:53.350] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:21:53.360] [DEBUG] debug-file - worker[30] exits with exit code 1.
+[2025-07-09T13:33:18.970] [DEBUG] debug-file - session manager: set active socket. socketId=ejqfsoiIr8R8XeZiAAAF
+[2025-07-09T13:33:18.984] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:33:18.993] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-09T13:33:18.996] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2025-07-09T13:33:19.003] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:33:19.008] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:33:19.009] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:33:19.013] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-09T13:33:19.014] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-09T13:33:19.014] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-09T13:33:19.014] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-09T13:33:19.015] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  }
+} in this build.
+[2025-07-09T13:33:19.018] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-09T13:33:19.023] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-09T13:33:19.050] [DEBUG] debug-file - Sdk init in 32 ms 
+[2025-07-09T13:33:19.066] [DEBUG] debug-file - Project task initialization takes 15 ms 
+[2025-07-09T13:33:19.066] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\hvigorfile.ts
+[2025-07-09T13:33:19.071] [DEBUG] debug-file - hvigorfile, resolving D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:33:19.075] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-09T13:33:19.075] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-09T13:33:19.079] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-09T13:33:19.080] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-09T13:33:19.081] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-09T13:33:19.081] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+}
+[2025-07-09T13:33:19.081] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+}
+[2025-07-09T13:33:19.081] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-09T13:33:19.081] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "debug"
+} in this build.
+[2025-07-09T13:33:19.083] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-07-09T13:33:19.083] [DEBUG] debug-file - hvigorfile, resolve finished D:\SummerProject\timesnap\frontend\timesnap_ui\entry\hvigorfile.ts
+[2025-07-09T13:33:19.107] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 24 ms 
+[2025-07-09T13:33:19.110] [DEBUG] debug-file - Sdk init in 2 ms 
+[2025-07-09T13:33:19.111] [DEBUG] debug-file - project has submodules:entry
+[2025-07-09T13:33:19.114] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": false
+  },
+  "name": "default"
+} in this build.
+[2025-07-09T13:33:19.116] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-09T13:33:19.118] [DEBUG] debug-file - load to the disk finished
+[2025-07-09T13:33:19.119] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-09T13:33:19.121] [DEBUG] debug-file - Module timesnap_ui Collected Dependency: 
+[2025-07-09T13:33:19.121] [DEBUG] debug-file - Module timesnap_ui's total dependency: 0
+[2025-07-09T13:33:19.121] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-09T13:33:19.122] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-07-09T13:33:19.122] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-07-09T13:33:19.124] [DEBUG] debug-file - Configuration phase cost:125 ms 
+[2025-07-09T13:33:19.125] [DEBUG] debug-file - Configuration task cost before running: 140 ms 
+[2025-07-09T13:33:19.126] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.126] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.128] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-07-09T13:33:19.132] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 3 ms .
+[2025-07-09T13:33:19.132] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.31793975830078125
+[2025-07-09T13:33:19.133] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-07-09T13:33:19.135] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.135] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.135] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-07-09T13:33:19.136] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.136] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.09088897705078125
+[2025-07-09T13:33:19.136] [DEBUG] debug-file - runTaskFromQueue task cost before running: 151 ms 
+[2025-07-09T13:33:19.136] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-07-09T13:33:19.137] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.137] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.138] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-07-09T13:33:19.138] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.139] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.139] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.091796875
+[2025-07-09T13:33:19.139] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.033935546875
+[2025-07-09T13:33:19.140] [DEBUG] debug-file - runTaskFromQueue task cost before running: 155 ms 
+[2025-07-09T13:33:19.140] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-07-09T13:33:19.141] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.141] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.142] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-07-09T13:33:19.143] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.143] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.10607147216796875
+[2025-07-09T13:33:19.143] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-07-09T13:33:19.144] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.144] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.144] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-07-09T13:33:19.145] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.145] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.145] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.0996551513671875
+[2025-07-09T13:33:19.145] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-07-09T13:33:19.146] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.146] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.147] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-07-09T13:33:19.147] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.147] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.147] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.03417205810546875
+[2025-07-09T13:33:19.147] [DEBUG] debug-file - runTaskFromQueue task cost before running: 161 ms 
+[2025-07-09T13:33:19.147] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-07-09T13:33:19.149] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.149] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.151] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-07-09T13:33:19.151] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.151] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.0345001220703125
+[2025-07-09T13:33:19.151] [DEBUG] debug-file - runTaskFromQueue task cost before running: 166 ms 
+[2025-07-09T13:33:19.151] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-07-09T13:33:19.152] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.153] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.153] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-07-09T13:33:19.154] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'D:\SummerProject\timesnap\frontend\timesnap_ui\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2025-07-09T13:33:19.154] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.154] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.154] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.155] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.1143951416015625
+[2025-07-09T13:33:19.155] [DEBUG] debug-file - runTaskFromQueue task cost before running: 169 ms 
+[2025-07-09T13:33:19.155] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.03387451171875
+[2025-07-09T13:33:19.156] [DEBUG] debug-file - runTaskFromQueue task cost before running: 171 ms 
+[2025-07-09T13:33:19.157] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-07-09T13:33:19.157] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.158] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.158] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-07-09T13:33:19.159] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 2 ms .
+[2025-07-09T13:33:19.160] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.14232635498046875
+[2025-07-09T13:33:19.160] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-07-09T13:33:19.161] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.161] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.162] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-07-09T13:33:19.162] [DEBUG] debug-file - File: 'D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-07-09T13:33:19.162] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.163] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2025-07-09T13:33:19.163] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.163] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.163] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.163] [DEBUG] debug-file - entry : default@SyscapTransform cost memory -1.4623489379882812
+[2025-07-09T13:33:19.163] [DEBUG] debug-file - runTaskFromQueue task cost before running: 178 ms 
+[2025-07-09T13:33:19.163] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-07-09T13:33:19.164] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.164] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.165] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-07-09T13:33:19.166] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.166] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.098785400390625
+[2025-07-09T13:33:19.166] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-07-09T13:33:19.167] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.167] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.168] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-07-09T13:33:19.170] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 2 ms .
+[2025-07-09T13:33:19.170] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.16512298583984375
+[2025-07-09T13:33:19.170] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-07-09T13:33:19.171] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.171] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.172] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-07-09T13:33:19.172] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.172] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.172] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.05432891845703125
+[2025-07-09T13:33:19.172] [DEBUG] debug-file - runTaskFromQueue task cost before running: 187 ms 
+[2025-07-09T13:33:19.173] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2025-07-09T13:33:19.173] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.173] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.174] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-07-09T13:33:19.175] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-07-09T13:33:19.176] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.176] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.168670654296875
+[2025-07-09T13:33:19.178] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-07-09T13:33:19.179] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.179] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.181] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-07-09T13:33:19.188] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 5 ms .
+[2025-07-09T13:33:19.188] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.6455612182617188
+[2025-07-09T13:33:19.190] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-07-09T13:33:19.191] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.191] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.192] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-07-09T13:33:19.193] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.193] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.1346588134765625
+[2025-07-09T13:33:19.194] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-07-09T13:33:19.194] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.195] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.195] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-07-09T13:33:19.197] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-07-09T13:33:19.204] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 7 ms .
+[2025-07-09T13:33:19.204] [DEBUG] debug-file - entry : default@CompileResource cost memory 1.0691757202148438
+[2025-07-09T13:33:19.205] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-07-09T13:33:19.206] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.206] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.207] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-07-09T13:33:19.208] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.208] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.208] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.07407379150390625
+[2025-07-09T13:33:19.208] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-07-09T13:33:19.209] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.209] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.211] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-07-09T13:33:19.217] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\ets' has been changed.
+[2025-07-09T13:33:19.217] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 4 ms .
+[2025-07-09T13:33:19.224] [DEBUG] debug-file - build config:
+[2025-07-09T13:33:19.224] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\Harmony\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui',
+  compileSdkVersion: 17,
+  compatibleSdkVersion: 17,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***i',
+  etsLoaderVersion: '5.0.5.165',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'e776dbcb2d1b1b7109cb6cee5c7c6413',
+  externalApiPaths: [ 'D:\\Harmony\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 17,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true, useNormalizedOHMUrl: false },
+  buildDir: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: [ [Object] ], definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  autoLazyImport: undefined,
+  allowEmptyBundleName: false,
+  singleFileEmit: false,
+  arkCompileCachePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  reExportCheckMode: 'noCheck',
+  aceModuleJsonPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '01aa1751813385087cfce14c011e0fb8',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:17:5.0.5.165:Release',
+  aceModuleRoot: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    },
+    'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui': {
+      moduleName: 'timesnap_ui',
+      modulePkgPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui',
+      belongProjectPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui'
+    }
+  },
+  pkgJsonFileHash: 'ad14e34daa63b8462784838da084e1fc',
+  allModulePaths: [ 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: 'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\mock\\mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  uiTransformOptimization: false,
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-07-09T13:33:19.224] [DEBUG] debug-file - Compile arkts with external api path: D:\Harmony\DevEco Studio\sdk\default\hms\ets
+[2025-07-09T13:33:19.224] [DEBUG] debug-file - default@CompileArkTS work[6] is submitted.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - default@CompileArkTS work[6] is pushed to ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[28] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[27] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[26] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[25] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[24] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.225] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - default@CompileArkTS work[6] has been dispatched to worker[4].
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - default@CompileArkTS work[6] is dispatched.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - CopyResources startTime: 99520658196600
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - default@CompileArkTS work[7] is submitted.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - default@CompileArkTS work[7] is pushed to ready queue.
+[2025-07-09T13:33:19.226] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:33:19.227] [DEBUG] debug-file - Create  resident worker with id: 30.
+[2025-07-09T13:33:19.228] [DEBUG] debug-file - default@CompileArkTS work[7] has been dispatched to worker[30].
+[2025-07-09T13:33:19.228] [DEBUG] debug-file - default@CompileArkTS work[7] is dispatched.
+[2025-07-09T13:33:19.228] [DEBUG] debug-file - entry : default@CompileArkTS cost memory -1.4907073974609375
+[2025-07-09T13:33:19.229] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.229] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.231] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-07-09T13:33:19.232] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.12522125244140625
+[2025-07-09T13:33:19.233] [DEBUG] debug-file - runTaskFromQueue task cost before running: 247 ms 
+[2025-07-09T13:33:19.233] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2025-07-09T13:33:19.234] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:19.234] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:19.235] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-07-09T13:33:19.235] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:19.236] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-07-09T13:33:19.236] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.0843658447265625
+[2025-07-09T13:33:19.236] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-07-09T13:33:19.868] [DEBUG] debug-file - worker[30] has one work done.
+[2025-07-09T13:33:19.868] [DEBUG] debug-file - CopyResources is end, endTime: 99521300276500
+[2025-07-09T13:33:19.868] [DEBUG] debug-file - default@CompileArkTS work[7] done.
+[2025-07-09T13:33:19.868] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:33:20.333] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/HomePage.ets:13:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+[33mWARN: [33mArkTS:WARN File: D:/SummerProject/timesnap/frontend/timesnap_ui/entry/src/main/ets/pages/DetailPage.ets:66:1
+ It's not a recommended way to export struct with @Entry decorator, which may cause ACE Engine error in component preview mode.[39m
+
+[2025-07-09T13:33:20.334] [DEBUG] debug-file - Ark compile task finished.finished time is 99521765887700
+[2025-07-09T13:33:20.334] [DEBUG] debug-file - worker[4] has one work done.
+[2025-07-09T13:33:20.337] [DEBUG] debug-file - default@CompileArkTS work[6] done.
+[2025-07-09T13:33:20.338] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-07-09T13:33:20.339] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 1 s 123 ms 
+[2025-07-09T13:33:20.340] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.340] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.340] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-07-09T13:33:20.341] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-07-09T13:33:20.341] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-07-09T13:33:20.341] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.06549835205078125
+[2025-07-09T13:33:20.341] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2025-07-09T13:33:20.343] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.343] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.346] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-07-09T13:33:20.351] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets' has been changed.
+[2025-07-09T13:33:20.351] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 4 ms .
+[2025-07-09T13:33:20.351] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.351] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.352] [DEBUG] debug-file - Use tool [D:\Harmony\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\Harmony\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2025-07-09T13:33:20.353] [DEBUG] debug-file - default@PackageHap work[8] is submitted.
+[2025-07-09T13:33:20.353] [DEBUG] debug-file - default@PackageHap work[8] is pushed to ready queue.
+[2025-07-09T13:33:20.353] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2025-07-09T13:33:20.353] [DEBUG] debug-file - default@PackageHap work[8] has been dispatched to worker[30].
+[2025-07-09T13:33:20.354] [DEBUG] debug-file - default@PackageHap work[8] is dispatched.
+[2025-07-09T13:33:20.356] [DEBUG] debug-file - entry : default@PackageHap cost memory 1.2750473022460938
+[2025-07-09T13:33:20.409] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 596938752,
+  heapTotal: 75751424,
+  heapUsed: 53268568,
+  external: 13616597,
+  arrayBuffers: 11564295
+} os memoryUsage :19.191219329833984
+[2025-07-09T13:33:20.749] [DEBUG] debug-file - worker[30] has one work done.
+[2025-07-09T13:33:20.749] [DEBUG] debug-file - default@PackageHap work[8] done.
+[2025-07-09T13:33:20.749] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2025-07-09T13:33:20.750] [INFO] debug-file - Finished :entry:default@PackageHap... after 352 ms 
+[2025-07-09T13:33:20.751] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.751] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.752] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-07-09T13:33:20.753] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in D:\SummerProject\timesnap\frontend\timesnap_ui\build-profile.json5.
+[2025-07-09T13:33:20.753] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2025-07-09T13:33:20.753] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-07-09T13:33:20.753] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.753] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.753] [DEBUG] debug-file - entry : default@SignHap cost memory 0.1073455810546875
+[2025-07-09T13:33:20.753] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 768 ms 
+[2025-07-09T13:33:20.753] [INFO] debug-file - Finished :entry:default@SignHap... after 1 ms 
+[2025-07-09T13:33:20.754] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.754] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.755] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-07-09T13:33:20.757] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-09T13:33:20.757] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-07-09T13:33:20.757] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.24347686767578125
+[2025-07-09T13:33:20.758] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 772 ms 
+[2025-07-09T13:33:20.758] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 3 ms 
+[2025-07-09T13:33:20.758] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-07-09T13:33:20.758] [DEBUG] debug-file - entry : assembleHap cost memory 0.01024627685546875
+[2025-07-09T13:33:20.758] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 772 ms 
+[2025-07-09T13:33:20.758] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-07-09T13:33:20.767] [DEBUG] debug-file - BUILD SUCCESSFUL in 1 s 782 ms 
+[2025-07-09T13:33:20.767] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-07-09T13:33:20.767] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\SummerProject\timesnap\frontend\timesnap_ui\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Harmony\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-07-09T13:33:20.768] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Harmony\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-07-09T13:33:20.769] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-07-09T13:33:20.770] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-07-09T13:33:20.770] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-09T13:33:20.770] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-07-09T13:33:20.771] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-09T13:33:20.771] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\main\ets cache from map.
+[2025-07-09T13:33:20.771] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-09T13:33:20.771] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\src\mock\mock-config.json5 cache by regenerate.
+[2025-07-09T13:33:20.771] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets cache.
+[2025-07-09T13:33:20.772] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:4 ms .
+[2025-07-09T13:33:20.773] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-07-09T13:33:20.773] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-09T13:33:20.773] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-07-09T13:33:20.773] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-09T13:33:20.774] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-07-09T13:33:20.774] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:2 ms .
+[2025-07-09T13:33:20.774] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-07-09T13:33:20.774] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2025-07-09T13:33:20.774] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-07-09T13:33:20.774] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-07-09T13:33:20.775] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2025-07-09T13:33:20.776] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2025-07-09T13:33:20.776] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets cache from map.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2025-07-09T13:33:20.777] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:4 ms .
+[2025-07-09T13:33:20.778] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2025-07-09T13:33:20.778] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-07-09T13:33:20.778] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-07-09T13:33:20.779] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-07-09T13:33:20.779] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-07-09T13:33:20.779] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\SummerProject\timesnap\frontend\timesnap_ui\entry\build\default\outputs\default\symbol cache.
+[2025-07-09T13:33:20.779] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2025-07-09T13:33:20.801] [DEBUG] debug-file - Cleanup worker 30.
+[2025-07-09T13:33:20.802] [DEBUG] debug-file - Worker 30 has been cleaned up.
+[2025-07-09T13:33:20.802] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-09T13:33:20.802] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-09T13:33:20.802] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-09T13:33:20.807] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:33:20.808] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-09T13:33:20.808] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:33:20.809] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-09T13:33:20.810] [DEBUG] debug-file - worker[30] exits with exit code 1.

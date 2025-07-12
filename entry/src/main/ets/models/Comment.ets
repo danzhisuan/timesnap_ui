@@ -4,8 +4,8 @@ import { UserSimple } from "./User"
 
 
 export interface  Comment {
-  comment_id: string
-  post_id: string
+  comment_id: number
+  post_id: number
   commenter: UserSimple
   content: string
   medias: Media[]

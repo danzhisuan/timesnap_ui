@@ -1,7 +1,7 @@
 import { FollowStats, LikeStats } from "./Stats";
 
 export interface  UserSimple { //用户信息
-  user_id: string;
+  user_id: number;
   avatar: string;
   nickname: string;
   email: string;
@@ -9,7 +9,7 @@ export interface  UserSimple { //用户信息
 };
 
 export interface UserDetail { //用户详细页
-  user:UserSimple
+  user_simple:UserSimple
   introduction: string
   follow_stats: FollowStats
   like_count: number

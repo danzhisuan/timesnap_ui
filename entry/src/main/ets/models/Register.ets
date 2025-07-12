@@ -3,6 +3,5 @@ export interface registerRequest{
   email : string;
   password : string;
   nickname? : string;
-  avatar_url? : string;
 }
 

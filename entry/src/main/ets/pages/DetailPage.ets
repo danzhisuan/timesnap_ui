@@ -60,9 +60,6 @@ interface Params {
 }
 
 
-
-
-
 @Entry
 @Component
 export default struct DetailPage {
@@ -106,7 +103,6 @@ export default struct DetailPage {
   };
   //连接数据库
   aboutToAppear(): void {
-    //zzf写的
     let uiContext: UIContext = this.getUIContext();
     let params = uiContext.getRouter().getParams() as Params;
     if (params.id) {
@@ -114,7 +110,6 @@ export default struct DetailPage {
     } else {
       console.warn('没有传入id参数');
     }
-    //zzf写的————结束
 
     const httpRequest = http.createHttp()
     httpRequest.request(

@@ -110,7 +110,10 @@ export struct HotPage {
                   .onClick(() => {
                     let uiContext: UIContext = this.getUIContext();
                     let router = uiContext.getRouter();
-                    router.pushUrl({ url: 'pages/DetailPage' });
+                    router.pushUrl({
+                      url: 'pages/DetailPage',
+                      params: { id: item.id.toString() }  // 传入字符串类型的id
+                    });
                   });
                 }, (item: CardItem) => item.id.toString());
               }

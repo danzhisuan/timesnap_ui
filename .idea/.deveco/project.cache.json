@@ -3,13 +3,13 @@
 		"project.ide.version":"5.0.13.200",
 		"current.select.product":"default",
 		"current.select.buildMode":"",
-		"crossplatform.projectType":""
+		"crossplatform.projectType":"application"
 	},
 	"BuildOptions":{
 		"SELECT_BUILD_PRODUCT":"default",
 		"BUNDLE_NAME":"com.example.timesnap_ui",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\build\\outputs\\default"
+			"OUTPUT_PATH":"E:\\DevEcoStudioProjects\\TimeSnap_UI\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_MODE":""
 	}

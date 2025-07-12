@@ -1,7 +1,7 @@
 import { BusinessError } from '@kit.BasicServicesKit'
 import http from '@ohos.net.http'
 import { UserStore } from '../common/userStore'
-import router from '@ohos.router';
+
 
 
 interface User {
@@ -17,9 +17,12 @@ interface ChatItem {
   user: User;
 }
 
-interface PrivateChatParams {
-  conversationId: string;
+
+
+interface Params {
+  conversationId?: string;
 }
+
 
 @Entry
 @Component
@@ -31,22 +34,25 @@ export default struct PrivateChat {
     avatar: '',
     name: ''
   }
+
   private currentUserId: string = UserStore.userId; // 当前用户 ID
-
-  @State conversationId: string = '1'
-
+  @State conversationId: string = '';
   @State inputValue: string = '';
   private inputController: TextInputController = new TextInputController();
 
-  onPageShow(): void {
-    const params = router.getParams() as PrivateChatParams;
-    this.conversationId = params.conversationId;
-    console.info('接收到会话ID:', this.conversationId);
-  }
+
 
   aboutToAppear(): void {
+    let uiContext: UIContext = this.getUIContext();
+    let params = uiContext.getRouter().getParams() as Params;
+    if (params.conversationId) {
+      this.conversationId = params.conversationId;
+      console.info('接收到的id参数:', params.conversationId);
+    } else {
+      console.warn('没有传入id参数');
+    }
     const httpRequest = http.createHttp();
-    const url = `http://47.117.0.254:4000/conversations/${this.conversationId}/messages`;
+    const url = `http://47.117.0.254:4000/chat-message/chat-items?contactId=${params.conversationId}`;
     httpRequest.request(
       url,
       {
@@ -57,16 +63,16 @@ export default struct PrivateChat {
         try {
           const detail: ChatItem[] = JSON.parse(response.result)
           this.messages = detail
-          // 自动从消息中获取 targetUser（第一个不是当前用户的 user）
-          const otherUser = detail.find(msg => msg.user.user_id !== UserStore.userId)?.user
-          if (otherUser) {
-            this.targetUser = {
-              user_id: otherUser.user_id,
-              avatar: otherUser.avatar,
-              name: otherUser.name
-            }
-          }
-          console.info('消息已解析并设置 targetUser')
+          //自动从消息中获取 targetUser（第一个不是当前用户的 user）
+          // const otherUser = detail.find(msg => msg.user.user_id !== UserStore.userId)?.user
+          // if (otherUser) {
+          //   this.targetUser = {
+          //     user_id: otherUser.user_id,
+          //     avatar: otherUser.avatar,
+          //     name: otherUser.name
+          //   }
+          // }
+          // console.info('消息已解析并设置 targetUser')
         } catch (e) {
           console.error('JSON 解析失败:', (e as Error).message)
         }
@@ -100,14 +106,15 @@ export default struct PrivateChat {
     //将消息发送到后端
     const httpRequest = http.createHttp()
     httpRequest.request(
-      'http://47.117.0.254:4000/conversations/1/messages',
+      'http://47.117.0.254:4000/chat-message/create',
       {
         method: http.RequestMethod.POST,
         header: {
           'Content-Type': 'application/json'
         },
         extraData: JSON.stringify({
-          userId: UserStore.userId,
+          contact_id:this.conversationId,
+          sender_id: this.targetUser.user_id,
           content: newMessage.content,
           isImage: false
         })
@@ -161,7 +168,7 @@ export default struct PrivateChat {
       // 聊天内容
       Scroll() {
         Column() {
-          ForEach(this.messages, (item: ChatItem, index: number) => {
+          ForEach(this.messages, (item: ChatItem) => {
             Column() {
               Text(item.time)
                 .fontSize(12)

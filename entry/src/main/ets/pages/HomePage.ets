@@ -174,14 +174,14 @@ export struct HomePage {
                     .margin({ left: itemIndex === 1 ? '4%' : 0 });
                   }
                   .backgroundColor(Color.Transparent)
-                  .onClick(() => {//zzf写的
+                  .onClick(() => {
                     let uiContext: UIContext = this.getUIContext();
                     let router = uiContext.getRouter();
                     router.pushUrl({
                       url: 'pages/DetailPage',
                       params: { id: item.id.toString() }  // 传入字符串类型的id
                     });
-                  });//zzf写的————结束
+                  });
 
                 }, (item: CardItem) => item.id.toString());
               }

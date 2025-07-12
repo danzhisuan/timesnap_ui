@@ -7,7 +7,10 @@ interface PreviewItem {
   name: string;
   message: string;
   conversationId: string;
+  friendId:string;
 }
+
+
 
 
 
@@ -19,7 +22,7 @@ export struct MessagePage {
   aboutToAppear(): void {
     const httpRequest = http.createHttp()
     const userId = UserStore.userId;
-    const url = `http://47.117.0.254:4000/conversations/users/${userId}/message-previews`;
+    const url = `http://47.117.0.254:4000/contact/preview?userId=${userId}`;
     httpRequest.request(
       url,
       {
@@ -133,7 +136,8 @@ export struct MessagePage {
               router.pushUrl({
                 url: 'pages/PrivateChat',
                 params: {
-                  conversationId: item.conversationId
+                  conversationId: item.conversationId.toString(),
+                  // friendId: item.friendId.toString()
                 }
               })//传会话id到下个界面
                 .catch((err: BusinessError) =>

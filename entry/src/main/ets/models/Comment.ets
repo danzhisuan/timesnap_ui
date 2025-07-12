@@ -1,4 +1,5 @@
 import { Media } from "./Media"
+import { LikeStats } from "./Stats"
 import { User } from "./User"
 
 
@@ -7,8 +8,8 @@ export interface  Comment {
   post_id: string
   content: string
   comment_time: string
-  like_count: number
-  user: User
+  like_stats:LikeStats
+  commenter: User
   medias: Media[]
   children:Comment[]
 }

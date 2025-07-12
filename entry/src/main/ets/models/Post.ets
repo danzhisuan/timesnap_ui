@@ -1,31 +1,29 @@
 import { Comment } from './Comment'
 import { Media } from './Media'
+import { CollectStats, LikeStats } from './Stats'
 import { Tag } from './Tag'
 import { User } from './User'
 
-interface Post {
+interface PostSimple {
   post_id: number
-  publish_time: string
   title: string
-  content: string
+  publisher: User
+  like_stats: LikeStats
+  cover_url: string
 }
 interface Permission {
   view_permission: string
   comment_permission: string
 }
-interface Stats {
-  like_count: number
-  collect_count: number
+
+interface PostDetail {
+  collect_stats: CollectStats
   browse_count: number
   comment_count: number
-  isLiked: boolean
-  isCollected: boolean
-}
-interface PostDetail {
-  post: Post
-  user: User
+  publish_time: string
+  post_simple: PostSimple
+  content: string
   permission: Permission
-  stats: Stats
   medias: Media[]
   tags: Tag[]
   comments: Comment[]

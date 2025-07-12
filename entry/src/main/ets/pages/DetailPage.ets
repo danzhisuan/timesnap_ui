@@ -176,7 +176,7 @@ export default struct DetailPage {
         .layoutWeight(1)
         .alignItems(VerticalAlign.Center);
 
-        Button() {
+        Button() {//加一个userid!=store.userid
           Text(this.isFollowing ? '已关注' : '关注')
             .fontSize(16)
             .fontWeight(FontWeight.Medium)

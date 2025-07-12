@@ -1,15 +1,15 @@
 import { Media } from "./Media"
 import { LikeStats } from "./Stats"
-import { User } from "./User"
+import { UserSimple } from "./User"
 
 
 export interface  Comment {
   comment_id: string
   post_id: string
+  commenter: UserSimple
   content: string
-  comment_time: string
-  like_stats:LikeStats
-  commenter: User
   medias: Media[]
+  comment_time: Date
+  like_stats:LikeStats
   children:Comment[]
 }

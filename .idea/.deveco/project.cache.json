@@ -9,7 +9,7 @@
 		"SELECT_BUILD_PRODUCT":"default",
 		"BUNDLE_NAME":"com.example.timesnap_ui",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"E:\\DevEcoStudioProjects\\TimeSnap_UI\\build\\outputs\\default"
+			"OUTPUT_PATH":"D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_MODE":""
 	}

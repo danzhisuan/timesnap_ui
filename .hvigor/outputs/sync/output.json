@@ -4,50 +4,50 @@
   },
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build",
+    "MODULE_BUILD_DIR": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build",
     "DEPENDENCY_INFO": {},
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\src\\main",
+        "SOURCE_ROOT": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main",
         "RESOURCES_PATH": [
-          "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\src\\main\\resources"
+          "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\main\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\outputs\\default",
-          "INTERMEDIA_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\loader_out\\default",
-          "JS_LITE_ASSETS_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
-          "RES_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\res\\default",
-          "RES_PROFILE_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
-          "WORKER_LOADER": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
-          "MANIFEST_JSON": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\manifest\\default",
-          "OUTPUT_METADATA_JSON": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
-          "SOURCE_MAP_DIR": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\source_map\\default"
+          "OUTPUT_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\source_map\\default"
         },
         "BUILD_OPTION": {
           "debuggable": true
         }
       },
       "ohosTest": {
-        "SOURCE_ROOT": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\src\\ohosTest",
+        "SOURCE_ROOT": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\ohosTest",
         "RESOURCES_PATH": [
-          "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\src\\ohosTest\\resources"
+          "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\src\\ohosTest\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\outputs\\ohosTest",
-          "INTERMEDIA_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates",
-          "JS_ASSETS_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
-          "JS_LITE_ASSETS_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
-          "RES_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\res\\ohosTest",
-          "RES_PROFILE_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
-          "ETS_SUPER_VISUAL_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
-          "JS_SUPER_VISUAL_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
-          "WORKER_LOADER": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
-          "MANIFEST_JSON": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
-          "OUTPUT_METADATA_JSON": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json",
-          "SOURCE_MAP_DIR": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry\\build\\default\\intermediates\\source_map\\ohosTest"
+          "OUTPUT_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry\\build\\default\\intermediates\\source_map\\ohosTest"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -102,15 +102,15 @@
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
-    "MODULE_BUILD_DIR": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\build",
+    "MODULE_BUILD_DIR": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\build",
     "BUNDLE_NAME": "com.example.timesnap_ui",
     "BUILD_PATH": {
-      "OUTPUT_PATH": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\build\\outputs\\default"
+      "OUTPUT_PATH": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\build\\outputs\\default"
     },
     "MODULES": [
       {
         "name": "entry",
-        "srcPath": "E:\\DevEcoStudioProjects\\TimeSnap_UI\\entry",
+        "srcPath": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui\\entry",
         "targets": [
           {
             "name": "default",
@@ -119,7 +119,7 @@
             ]
           }
         ],
-        "belongProjectPath": "E:\\DevEcoStudioProjects\\TimeSnap_UI"
+        "belongProjectPath": "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui"
       }
     ],
     "PROFILE_OPT": {
@@ -170,7 +170,7 @@
       "hvigor.keepDependency": true
     },
     "OVERALL_PROJECT_PATHS": [
-      "E:\\DevEcoStudioProjects\\TimeSnap_UI"
+      "D:\\SummerProject\\timesnap\\frontend\\timesnap_ui"
     ],
     "BUILD_CACHE_DIR": ""
   },

@@ -1,7 +1,7 @@
-import { User } from './User';
+import { UserSimple } from './User';
 
 export interface  Contact {
-  friend: User;
-  latest_message: string;
   contact_id: string;
+  friend: UserSimple;
+  latest_message: string;
 }

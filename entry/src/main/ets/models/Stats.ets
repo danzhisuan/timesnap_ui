@@ -1,11 +1,11 @@
 export interface  LikeStats {
-  is_liked: boolean
-  like_count: number
+  is_liked: boolean //是否点赞
+  like_count: number //点赞数
 }
 
 export interface  CollectStats {
-  collect_count: number
-  is_collected: boolean
+  is_collected: boolean //是否收藏
+  collect_count: number //收藏数
 }
 
 export interface FollowStats{
